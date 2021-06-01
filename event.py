@@ -585,6 +585,7 @@ class Score():
 
 
     def shot(player1,player2,god): # ยิง(ประตูเป็นประตูหรือไม่)
+        print("shot")
         return player2
     def long_shot(a): # ยิงไกล(ประตูเป็นประตูหรือไม่)
         return a
